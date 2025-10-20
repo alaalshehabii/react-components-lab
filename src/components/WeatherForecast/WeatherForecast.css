@@ -1,0 +1,26 @@
+section {
+  display: flex;
+}
+
+section .weather {
+  border: 1px solid #ccc;
+  flex: 1;
+  padding: 10px;
+  text-align: center;
+}
+
+.weather span {
+  font-weight: bold;
+}
+
+/* extra css */
+
+section {
+  display: grid;                                   /* grid makes spacing way easier */
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 16px;                                       /* breathing room between cards */
+  max-width: 1100px;                               /* keeps things from stretching forever */
+  margin: 12px auto 32px;                          /* centered on the page */
+  padding: 0 12px;                                 /* tiny side padding so cards don’t hug the edges */
+}
+
