@@ -13,13 +13,13 @@ section .weather {
   font-weight: bold;
 }
 
-/* extra css */
+/* extra css (custom) */
 
 section {
-  display: grid;                                   /* grid makes spacing way easier */
+  display: grid;                                   
   grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-  gap: 16px;                                       /* breathing room between cards */
-  max-width: 1100px;                               /* keeps things from stretching forever */
+  gap: 16px;                                      
+  max-width: 1100px;                               
   margin: 12px auto 32px;                          /* centered on the page */
   padding: 0 12px;                                 /* tiny side padding so cards don’t hug the edges */
 }
